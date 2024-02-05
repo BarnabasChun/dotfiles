@@ -10,12 +10,16 @@ brew "starship"
 brew "trash"
 # Application launcher and productivity software
 cask "alfred"
+# Two-factor authentication software
+cask "authy"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# To-do list
+cask "todoist"
 vscode "akamud.vscode-theme-onedark"
 vscode "eamodio.gitlens"
 vscode "PKief.material-icon-theme"
