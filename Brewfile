@@ -1,19 +1,19 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
-
-# Brews (Packages)
+# Distributed revision control system
+brew "git"
+# Cross-shell prompt for astronauts
 brew "starship"
+# CLI tool that moves files or folder to the trash
 brew "trash"
-
-# Casks (Applications)
+# Application launcher and productivity software
 cask "alfred"
+# Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
+# Git client focusing on productivity
+cask "gitkraken"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# cask "google-chrome"
-# cask "visual-studio-code"
-
-# VS Code Extensions
 vscode "akamud.vscode-theme-onedark"
 vscode "eamodio.gitlens"
 vscode "PKief.material-icon-theme"
