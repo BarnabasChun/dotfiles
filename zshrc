@@ -1,4 +1,5 @@
 # Set Variables
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
 eval "$(starship init zsh)"
