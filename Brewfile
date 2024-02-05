@@ -2,6 +2,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 # Distributed revision control system
 brew "git"
+# Mac App Store command-line interface
+brew "mas"
 # Cross-shell prompt for astronauts
 brew "starship"
 # CLI tool that moves files or folder to the trash
