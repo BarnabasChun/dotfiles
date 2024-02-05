@@ -6,11 +6,12 @@ echo "\n<<< Starting Homebrew setup >>>\n"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # terminal related
-brew install --cask iterm2
+brew install --cask --no-quarantine iterm2
 brew tap homebrew/cask-fonts && brew install --cask font-fira-code-nerd-font
 brew install starship
 
 # misc
 brew install trash
-# brew install --cask visual-studio-code
-# brew install --cask google-chrome
+# brew install --cask --no-quarantine visual-studio-code
+# brew install --cask --no-quarantine google-chrome
+brew install --cask --no-quarantine alfred
