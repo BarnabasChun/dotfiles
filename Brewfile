@@ -12,8 +12,6 @@ brew "trash"
 cask "alfred"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
-# Git client focusing on productivity
-cask "gitkraken"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
