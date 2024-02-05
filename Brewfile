@@ -12,6 +12,8 @@ cask "alfred"
 cask "font-fira-code-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 vscode "akamud.vscode-theme-onedark"
