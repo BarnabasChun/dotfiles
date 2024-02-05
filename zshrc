@@ -22,8 +22,8 @@ alias gnuke='git add . && git commit --amend --no-edit && git push -f'
 # Customize Prompt(s)
 
 # Add Locations to $PATH Variables
-
-
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Handy Functions
 function mkcd() {
