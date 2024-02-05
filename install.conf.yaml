@@ -7,9 +7,7 @@
 - link:
     ~/.zshrc:
     ~/.gitconfig:
-
-# - create:
-#     - ~/work
+    ~/.config/starship.toml: starship.toml
 
 - shell:
   - 
