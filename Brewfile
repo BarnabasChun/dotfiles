@@ -8,6 +8,8 @@ brew "mas"
 brew "starship"
 # CLI tool that moves files or folder to the trash
 brew "trash"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
 # Two-factor authentication software
@@ -24,3 +26,4 @@ vscode "akamud.vscode-theme-onedark"
 vscode "eamodio.gitlens"
 vscode "pkief.material-icon-theme"
 vscode "tamasfe.even-better-toml"
+vscode "vscodevim.vim"
