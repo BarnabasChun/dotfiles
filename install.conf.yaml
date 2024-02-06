@@ -11,7 +11,9 @@
     ~/.config/starship.toml: starship.toml
 
 - shell:
-  - 
-    command: ./setup_homebrew.zsh
+  - command: ./setup_homebrew.zsh
+    stdout: true
+    sterr: true
+  - command: ./setup_zsh.zsh
     stdout: true
     sterr: true
