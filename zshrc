@@ -11,6 +11,7 @@ alias c='clear'
 alias s='source ~/.zshrc'
 alias dev='npm run dev'
 alias rm='trash'
+alias bbd="brew bundle dump --force --describe"
 
 # GIT ALIASES
 alias gpr='git remote prune origin'
