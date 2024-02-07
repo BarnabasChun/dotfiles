@@ -22,6 +22,8 @@ cask "google-drive"
 cask "iterm2"
 # To-do list
 cask "todoist"
+# Open-source code editor
+cask "visual-studio-code"
 vscode "akamud.vscode-theme-onedark"
 vscode "eamodio.gitlens"
 vscode "pkief.material-icon-theme"
