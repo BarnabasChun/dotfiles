@@ -17,3 +17,7 @@
   - command: ./setup_zsh.zsh
     stdout: true
     sterr: true
+  - command: ./setup_iterm2.zsh
+    stdout: true
+    sterr: true
+  
