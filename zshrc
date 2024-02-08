@@ -6,7 +6,6 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
 # Create Aliases
 alias ls='eza'
 alias ll='eza -lahF'
@@ -26,7 +25,7 @@ alias gco='git checkout'
 alias gcl='gco -'
 alias gnuke='git add . && git commit --amend --no-edit && git push -f'
 
-# Customize Prompt(s)
+# Customize $PATH
 
 # used to make the elements of the path array unique
 typeset -U path
