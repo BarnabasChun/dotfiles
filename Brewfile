@@ -10,6 +10,8 @@ brew "eza"
 brew "git"
 # Mac App Store command-line interface
 brew "mas"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
 # CLI tool that moves files or folder to the trash
