@@ -4,6 +4,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
 eval "$(starship init zsh)"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
 # Create Aliases

@@ -6,6 +6,8 @@ brew "bat"
 brew "bat-extras"
 # Modern, maintained replacement for ls
 brew "eza"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # Distributed revision control system
 brew "git"
 # Mac App Store command-line interface
