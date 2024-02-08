@@ -10,6 +10,3 @@ format = '[$symbol($version )]($style)'
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style) '
 symbol = " "
-
-[username]
-show_always = true
