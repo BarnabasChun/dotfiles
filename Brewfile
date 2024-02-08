@@ -18,6 +18,8 @@ brew "ripgrep"
 brew "starship"
 # CLI tool that moves files or folder to the trash
 brew "trash"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Application launcher and productivity software
