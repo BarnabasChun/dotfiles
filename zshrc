@@ -6,7 +6,8 @@ eval "$(starship init zsh)"
 
 
 # Create Aliases
-alias ls='ls -lAFh'
+alias ls='eza'
+alias ll='eza -lah'
 alias c='clear'
 alias s='source ~/.zshrc'
 alias dev='npm run dev'
