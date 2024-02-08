@@ -1,4 +1,5 @@
 # Set Variables
+export NULLCMD=bat
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
@@ -12,6 +13,7 @@ alias c='clear'
 alias s='source ~/.zshrc'
 alias dev='npm run dev'
 alias rm='trash'
+alias man='batman'
 alias bbd="brew bundle dump --force --describe"
 alias trail='<<<${(F)path}'
 
