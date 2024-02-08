@@ -9,6 +9,9 @@
     ~/.zshenv:
     ~/.gitconfig:
     ~/.config/starship.toml: starship.toml
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
 - shell:
   - command: ./setup_homebrew.zsh

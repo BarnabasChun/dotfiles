@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
 # Distributed revision control system
