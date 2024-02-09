@@ -34,6 +34,8 @@ cask "google-drive"
 cask "iterm2"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # To-do list
 cask "todoist"
 # Open-source code editor
