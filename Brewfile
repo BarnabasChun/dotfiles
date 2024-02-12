@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "jesseduffield/lazygit"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
@@ -22,6 +23,8 @@ brew "trash"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# A simple terminal UI for git commands, written in Go
+brew "jesseduffield/lazygit/lazygit"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
