@@ -17,6 +17,8 @@ brew "mas"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Terminal multiplexer
+brew "tmux"
 # CLI tool that moves files or folder to the trash
 brew "trash"
 # Shell extension to navigate your filesystem faster

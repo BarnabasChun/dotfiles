@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
+    ~/.tmux.conf:
     ~/.config/starship.toml: starship.toml
     ~/.config/bat:
       create: true

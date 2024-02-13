@@ -18,6 +18,7 @@ alias man='batman'
 alias bbd="brew bundle dump --force --describe"
 alias trail='<<<${(F)path}'
 alias lg='lazygit'
+alias tupdate='tmux source-file ~/.tmux.conf'
 
 # GIT ALIASES
 alias gpr='git remote prune origin'
