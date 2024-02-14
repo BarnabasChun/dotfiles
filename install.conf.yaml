@@ -21,6 +21,9 @@
   - command: ./setup_zsh.zsh
     stdout: true
     sterr: true
+  - command: ./setup_deps.zsh
+    stdout: true
+    sterr: true
   - command: ./setup_macos.zsh
     stdout: true
     sterr: true
