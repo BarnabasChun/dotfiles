@@ -48,6 +48,14 @@ plutil -replace AppleSymbolicHotKeys.64.enabled -bool NO ~/Library/Preferences/c
 # force taking effect of changes to shortcut changes (https://zameermanji.com/blog/2021/6/8/applying-com-apple-symbolichotkeys-changes-instantaneously/)
 /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
 
+# Remap caps-lock to escape (https://developer.apple.com/library/archive/technotes/tn2450/_index.html)
+hidutil property --set '{
+  "UserKeyMapping":[{
+    "HIDKeyboardModifierMappingSrc":0x700000039,
+    "HIDKeyboardModifierMappingDst":0x700000029
+  }]
+}'
+
 ###############################################################################
 # VS Code                                                                     #
 ###############################################################################
