@@ -21,7 +21,7 @@
   - command: ./setup_zsh.zsh
     stdout: true
     sterr: true
-  - command: ./setup_iterm2.zsh
+  - command: ./setup_macos.zsh
     stdout: true
     sterr: true
   
