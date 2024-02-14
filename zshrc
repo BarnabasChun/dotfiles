@@ -39,6 +39,11 @@ path=(
     "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
 
+# asdf setup
+. "$HOME/.asdf/asdf.sh"
+fpath=(${ASDF_DIR}/completions $fpath) # append completions to fpath
+autoload -Uz compinit && compinit # initialise completions with ZSH's compinit
+
 # Handy Functions
 function mkcd() {
     # @ = argument
