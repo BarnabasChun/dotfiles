@@ -33,8 +33,6 @@ cask "1password"
 cask "1password-cli"
 # Application launcher and productivity software
 cask "alfred"
-# Two-factor authentication software
-cask "authy"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 # Client for the Google Drive storage service
