@@ -33,16 +33,18 @@ alias gnuke='git add . && git commit --amend --no-edit && git push -f'
 # used to make the elements of the path array unique
 typeset -U path
 
+# run asdf script which prepends $PATH and sets asdf's node binary as the priority
+. "$HOME/.asdf/asdf.sh"
+
+# asdf completions setup
+fpath=(${ASDF_DIR}/completions $fpath) # append completions to fpath
+autoload -Uz compinit && compinit # initialise completions with ZSH's compinit
+
 # Add Locations to $path array
 path=(
     $path
     "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
-
-# asdf setup
-. "$HOME/.asdf/asdf.sh"
-fpath=(${ASDF_DIR}/completions $fpath) # append completions to fpath
-autoload -Uz compinit && compinit # initialise completions with ZSH's compinit
 
 # Handy Functions
 function mkcd() {
