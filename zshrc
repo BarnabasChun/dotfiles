@@ -88,3 +88,8 @@ function mkcd() {
     # _ = use last argument
     mkdir -p "$@" && cd "$_";
 }
+
+function gfixup() {
+    git commit --fixup=$1
+    git -c sequence.editor=true rebase --interactive --autosquash $1^
+}
