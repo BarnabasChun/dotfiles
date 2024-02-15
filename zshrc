@@ -48,6 +48,7 @@ alias gap='git add -p'
 # checkout
 alias gco='git checkout'
 alias gcl='gco -'
+alias gcob='gco -b'
 
 # push
 alias gp='git push'
