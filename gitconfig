@@ -3,4 +3,7 @@
 	email = 28585999+BarnabasChun@users.noreply.github.com
 
 [includeIf "gitdir:~/work/"]
-    path = .gitconfig.work
+	path = .gitconfig.work
+
+[push]
+	autoSetupRemote = true
