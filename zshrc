@@ -1,13 +1,19 @@
-# Set Variables
+###############################################################################
+# VARIABLES                                                                   #
+##############################################################################s
 export NULLCMD=bat
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
-# Change ZSH Options
+###############################################################################
+# CUSTOMIZE TERMINAL                                                          #
+##############################################################################s
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Create Aliases
+###############################################################################
+# GENERAL ALIASES                                                             #
+###############################################################################
 alias ls='eza'
 alias ll='eza -lahF'
 alias c='clear'
@@ -20,15 +26,40 @@ alias trail='<<<${(F)path}'
 alias lg='lazygit'
 alias tupdate='tmux source-file ~/.tmux.conf'
 
-# GIT ALIASES
+###############################################################################
+# GIT ALIASES                                                                 #
+###############################################################################
+
+# misc
 alias gpr='git remote prune origin'
 alias ff='gpr && git pull --ff-only'
+alias gst='git status'
+
+# commit
 alias gc='git commit'
+alias gcm='gc -m'
+alias gca='gc --amend'
+alias gcan='gca --no-edit'
+
+# add
+alias gaa='git add .'
+alias gap='git add -p'
+
+# checkout
 alias gco='git checkout'
 alias gcl='gco -'
-alias gnuke='git add . && git commit --amend --no-edit && git push -f'
 
-# Customize $PATH
+# push
+alias gp='git push'
+alias gpf='gp --force'
+
+# combos
+alias gulast='gaa && gcan'
+alias gnuke='gulast && gfp'
+
+###############################################################################
+# CUSTOMIZE $PATH                                                             #
+###############################################################################
 
 # used to make the elements of the path array unique
 typeset -U path
@@ -36,21 +67,23 @@ typeset -U path
 # run asdf script which prepends $PATH and sets asdf's node binary as the priority
 . "$HOME/.asdf/asdf.sh"
 
-# asdf completions setup
-fpath=(${ASDF_DIR}/completions $fpath) # append completions to fpath
-autoload -Uz compinit && compinit # initialise completions with ZSH's compinit
-
 # Add Locations to $path array
 path=(
     $path
     "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
 
-# Handy Functions
+###############################################################################
+# ASDF Commpletions                                                           #
+###############################################################################
+fpath=(${ASDF_DIR}/completions $fpath) # append completions to fpath
+autoload -Uz compinit && compinit # initialise completions with ZSH's compinit
+
+###############################################################################
+# FUNCTIONS                                                                   #
+###############################################################################
 function mkcd() {
     # @ = argument
     # _ = use last argument
     mkdir -p "$@" && cd "$_";
 }
-
-# ZSH Plugins
