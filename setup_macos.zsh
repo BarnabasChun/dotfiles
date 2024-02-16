@@ -16,7 +16,7 @@ defaults write com.apple.finder ShowPathbar -bool true
 # Only show dock on hovering bottom of screen
 defaults write com.apple.dock autohide -bool true
 
-# Show remaining battery time; hide percentage
+# Show remaining battery percentage
 defaults -currentHost write com.apple.controlcenter.plist BatteryShowPercentage -bool true
 
 # Trackpad: map bottom right corner to right-click
