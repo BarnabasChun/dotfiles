@@ -25,13 +25,6 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightC
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
-# Disable press-and-hold for keys in favor of key repeat
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-
-# Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
-
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
@@ -47,21 +40,6 @@ plutil -replace AppleSymbolicHotKeys.64.enabled -bool NO ~/Library/Preferences/c
 
 # force taking effect of changes to shortcut changes (https://zameermanji.com/blog/2021/6/8/applying-com-apple-symbolichotkeys-changes-instantaneously/)
 /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
-
-# Remap caps-lock to escape (https://developer.apple.com/library/archive/technotes/tn2450/_index.html)
-hidutil property --set '{
-  "UserKeyMapping":[{
-    "HIDKeyboardModifierMappingSrc":0x700000039,
-    "HIDKeyboardModifierMappingDst":0x700000029
-  }]
-}'
-
-###############################################################################
-# VS Code                                                                     #
-###############################################################################
-
-# enable key-repeating
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
