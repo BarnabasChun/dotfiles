@@ -56,7 +56,7 @@ alias gpf='gp --force'
 
 # combos
 alias gulast='gaa && gcan'
-alias gnuke='gulast && gfp'
+alias gnuke='gulast && gpf'
 
 ###############################################################################
 # CUSTOMIZE $PATH                                                             #
