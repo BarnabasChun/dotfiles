@@ -40,6 +40,7 @@ alias gc='git commit'
 alias gcm='gc -m'
 alias gca='gc --amend'
 alias gcan='gca --no-edit'
+alias gcam='gc -am'
 
 # add
 alias gaa='git add .'
@@ -57,6 +58,10 @@ alias gpf='gp --force'
 # combos
 alias gulast='gaa && gcan'
 alias gnuke='gulast && gpf'
+
+# reset
+alias gundo='git reset HEAD~'
+alias gfuck='gundo --hard'
 
 ###############################################################################
 # CUSTOMIZE $PATH                                                             #
