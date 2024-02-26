@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/core"
 tap "jesseduffield/lazygit"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -25,6 +27,8 @@ brew "mas"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Simplified and community-driven man pages
+brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # CLI tool that moves files or folder to the trash
@@ -47,7 +51,7 @@ cask "font-fira-code-nerd-font"
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# App to write, plan, collaborate, and get organized
+# App to write, plan, collaborate, and get organised
 cask "notion"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
@@ -56,10 +60,13 @@ cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "akamud.vscode-theme-onedark"
+vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "github.remotehub"
+vscode "mhutchie.git-graph"
 vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.remote-repositories"
+vscode "naumovs.color-highlight"
 vscode "pkief.material-icon-theme"
 vscode "tamasfe.even-better-toml"
 vscode "vscodevim.vim"
