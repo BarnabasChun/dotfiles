@@ -5,3 +5,5 @@ asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs latest
 asdf global nodejs $(asdf list nodejs | tail -1 | sed 's/^ *//g')
 source ~/.zshrc
+
+npm install -g neovim

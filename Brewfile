@@ -13,6 +13,8 @@ brew "coreutils"
 brew "curl"
 # Modern, maintained replacement for ls
 brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU awk utility
@@ -23,6 +25,8 @@ brew "git"
 brew "gnupg"
 # Mac App Store command-line interface
 brew "mas"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -33,6 +37,8 @@ brew "tldr"
 brew "tmux"
 # CLI tool that moves files or folder to the trash
 brew "trash"
+# Internet file retriever
+brew "wget"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
