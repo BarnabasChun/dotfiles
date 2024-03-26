@@ -21,4 +21,3 @@ fi
 asdf global nodejs $(asdf list nodejs | tail -1 | sed 's/^ *//g')
 source ~/.zshrc
 
-npm install -g neovim
