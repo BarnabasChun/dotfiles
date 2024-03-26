@@ -1,7 +1,5 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "jesseduffield/lazygit"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -21,12 +19,12 @@ brew "fzf"
 brew "gawk"
 # Distributed revision control system
 brew "git"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Mac App Store command-line interface
 brew "mas"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -43,8 +41,6 @@ brew "wget"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# A simple terminal UI for git commands, written in Go
-brew "jesseduffield/lazygit/lazygit"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -66,6 +62,7 @@ cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "akamud.vscode-theme-onedark"
+vscode "dbaeumer.vscode-eslint"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "github.remotehub"
@@ -74,5 +71,6 @@ vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.remote-repositories"
 vscode "naumovs.color-highlight"
 vscode "pkief.material-icon-theme"
+vscode "rangav.vscode-thunder-client"
 vscode "tamasfe.even-better-toml"
 vscode "vscodevim.vim"
