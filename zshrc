@@ -2,6 +2,7 @@
 # VARIABLES                                                                   #
 ##############################################################################s
 export NULLCMD=bat
+# disables warning about application downloaded from internet if brew cask
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 ###############################################################################
