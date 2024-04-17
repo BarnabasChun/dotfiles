@@ -36,7 +36,7 @@ defaults write com.apple.Finder AppleShowAllFiles -bool true
 ###############################################################################
 
 # turn off spotlight opening w/ CMD + Space (clashes w/ Alfred)
-plutil -replace AppleSymbolicHotKeys.64.enabled -bool NO ~/Library/Preferences/com.apple.symbolichotkeys.plist
+defaults write com.apple.symbolichotkeys.plist AppleSymbolicHotKeys -dict-add 64 "<dict><key>enabled</key><false/></dict>"
 
 # Remap caps-lock to escape (https://developer.apple.com/library/archive/technotes/tn2450/_index.html)
 hidutil property --set '{
