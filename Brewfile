@@ -73,4 +73,4 @@ vscode "naumovs.color-highlight"
 vscode "pkief.material-icon-theme"
 vscode "rangav.vscode-thunder-client"
 vscode "tamasfe.even-better-toml"
-vscode "vscodevim.vim"
+
