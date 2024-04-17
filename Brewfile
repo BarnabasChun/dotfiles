@@ -47,6 +47,8 @@ cask "1password"
 cask "1password-cli"
 # Application launcher and productivity software
 cask "alfred"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 # Client for the Google Drive storage service
@@ -73,4 +75,3 @@ vscode "naumovs.color-highlight"
 vscode "pkief.material-icon-theme"
 vscode "rangav.vscode-thunder-client"
 vscode "tamasfe.even-better-toml"
-
