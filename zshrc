@@ -64,6 +64,9 @@ alias gnuke='gulast && gpf'
 alias gundo='git reset HEAD~'
 alias gfuck='gundo --hard'
 
+# npm
+alias npm-link-list='npm ls -g --depth=0 --link=true'
+
 ###############################################################################
 # CUSTOMIZE $PATH                                                             #
 ###############################################################################
