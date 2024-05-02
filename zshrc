@@ -102,3 +102,7 @@ function gfixup() {
     git commit --fixup=$1
     git -c sequence.editor=true rebase --interactive --autosquash $1^
 }
+
+function zcode() {
+  zi $1 && code .
+}
