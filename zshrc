@@ -106,3 +106,7 @@ function gfixup() {
 function zcode() {
   zi $1 && code .
 }
+
+function npm_unlink() {
+  sudo npm rm --global $1
+}
