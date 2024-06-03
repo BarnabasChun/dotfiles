@@ -25,6 +25,9 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightC
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
+# turn off backlit keyboard
+nvram backlight_level=0
+
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
