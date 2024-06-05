@@ -64,6 +64,7 @@ cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "akamud.vscode-theme-onedark"
+vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
