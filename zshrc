@@ -10,7 +10,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 ##############################################################################s
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh) # Set up fzf key bindings and fuzzy completion
 
 ###############################################################################
 # GENERAL ALIASES                                                             #
