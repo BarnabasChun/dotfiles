@@ -49,7 +49,6 @@ cask "1password-cli"
 cask "alfred"
 # Web browser focusing on privacy
 cask "brave-browser"
-# Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 # Client for the Google Drive storage service
 cask "google-drive"
@@ -57,6 +56,8 @@ cask "google-drive"
 cask "iterm2"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Collaboration platform for API development
+cask "postman"
 # IDE for Python programming - Community Edition
 cask "pycharm-ce"
 # Move and resize windows using keyboard shortcuts or snap areas
