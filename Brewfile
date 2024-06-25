@@ -57,6 +57,8 @@ cask "google-drive"
 cask "iterm2"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# IDE for Python programming - Community Edition
+cask "pycharm-ce"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # To-do list

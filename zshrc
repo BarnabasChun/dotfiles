@@ -81,7 +81,8 @@ typeset -U path
 # Add Locations to $path array
 path=(
     $path
-    "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+    "/Applications/Visual Studio Code.app/Contents/Resources/app/bin",
+    "/Applications/PyCharm CE.app/Contents/MacOS"
 )
 
 ###############################################################################
