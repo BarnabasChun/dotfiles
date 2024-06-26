@@ -50,6 +50,8 @@ cask "alfred"
 # Web browser focusing on privacy
 cask "brave-browser"
 cask "font-fira-code-nerd-font"
+# Web browser
+cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
