@@ -68,6 +68,8 @@ cask "rectangle"
 cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
+# Native desktop client for WhatsApp
+cask "whatsapp"
 vscode "akamud.vscode-theme-onedark"
 vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
