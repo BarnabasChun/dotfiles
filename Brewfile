@@ -25,6 +25,8 @@ brew "unbound"
 brew "gnupg"
 # Mac App Store command-line interface
 brew "mas"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -75,9 +77,11 @@ vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
 vscode "github.remotehub"
 vscode "mhutchie.git-graph"
+vscode "ms-playwright.playwright"
 vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.remote-repositories"
 vscode "naumovs.color-highlight"
